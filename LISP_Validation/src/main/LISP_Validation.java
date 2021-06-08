@@ -11,7 +11,7 @@ public class LISP_Validation {
 //		String LISPstr = input.next();
 //		input.close();
 		
-		String LISPstr = "(()(()(a(d()czx)dsa)))";
+		String LISPstr = "(()(()((a(d()czx)dsa)))";
 		Stack<Character> s = new Stack<Character>();
 		
 		for (char c : LISPstr.toCharArray()) {
